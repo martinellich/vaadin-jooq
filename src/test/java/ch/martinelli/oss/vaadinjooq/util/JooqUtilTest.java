@@ -1,4 +1,4 @@
-package io.seventytwo.vaadinjooq.util;
+package ch.martinelli.oss.vaadinjooq.util;
 
 import com.vaadin.flow.data.provider.QuerySortOrder;
 import com.vaadin.flow.data.provider.SortDirection;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.Collections;
 
-import static io.seventytwo.db.tables.Customer.CUSTOMER;
+import static ch.martinelli.oss.vaadinjooq.db.tables.Customer.CUSTOMER;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JooqUtilTest {
