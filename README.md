@@ -12,7 +12,7 @@ If you are using jOOQ 3.17.x you must use 2.x.x because this version requires Ja
 
 ```xml
 <dependency>
-    <groupId>io.seventytwo.oss</groupId>
+    <groupId>ch.martinelli.oss</groupId>
     <artifactId>vaadin-jooq</artifactId>
     <version>2.0.3</version>
 </dependency>
