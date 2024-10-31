@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.seventytwo.oss</groupId>
+    <groupId>ch.martinelli.oss</groupId>
     <artifactId>vaadin-jooq</artifactId>
     <version>2.0.5-SNAPSHOT</version>
 
@@ -22,9 +22,9 @@
         <developer>
             <id>simasch</id>
             <name>Simon Martinelli</name>
-            <organization>72 Services LLC</organization>
-            <organizationUrl>https://72.services</organizationUrl>
-            <email>simon@72.services</email>
+            <organization>Martinelli LLC</organization>
+            <organizationUrl>https://martinelli.ch</organizationUrl>
+            <email>simon@martinelli.ch</email>
         </developer>
     </developers>
 
@@ -47,26 +47,26 @@
         <dependency>
             <groupId>org.jooq</groupId>
             <artifactId>jooq</artifactId>
-            <version>3.17.5</version>
+            <version>3.19.14</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-core</artifactId>
-            <version>23.2.10</version>
+            <version>24.5.1</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.0</version>
+            <version>5.11.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>2.0.5</version>
+            <version>2.0.13</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -138,6 +138,15 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                        <version>0.6.0</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <publishingServerId>central</publishingServerId>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
