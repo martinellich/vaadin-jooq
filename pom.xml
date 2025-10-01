@@ -53,7 +53,7 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-core</artifactId>
-            <version>24.8.8</version>
+            <version>24.9.1</version>
             <scope>provided</scope>
         </dependency>
 
