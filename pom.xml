@@ -10,7 +10,7 @@
 
     <name>jOOQ for Vaadin</name>
     <description>Integrates Vaadin with jOOQ</description>
-    <url>https://github.com/simasch/vaadin-jooq</url>
+    <url>https://github.com/martinellich/vaadin-jooq</url>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -239,9 +239,9 @@
     </profiles>
 
     <scm>
-        <connection>scm:git:git@github.com:simasch/vaadin-jooq.git</connection>
-        <developerConnection>scm:git:git@github.com:simasch/vaadin-jooq.git</developerConnection>
-        <url>git@github.com:simasch/vaadin-jooq.git</url>
+        <connection>scm:git:git@github.com:martinellich/vaadin-jooq.git</connection>
+        <developerConnection>scm:git:git@github.com:martinellich/vaadin-jooq.git</developerConnection>
+        <url>git@github.com:martinellich/vaadin-jooq.git</url>
     </scm>
 
     <distributionManagement>
