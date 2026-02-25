@@ -14,7 +14,7 @@ If you are using jOOQ 3.17.x you must use 2.x.x because this version requires Ja
 <dependency>
     <groupId>ch.martinelli.oss</groupId>
     <artifactId>vaadin-jooq</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
 </dependency>
 ```
 
